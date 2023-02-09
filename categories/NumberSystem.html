@@ -34,18 +34,9 @@
       <p class="text-sm md:text-base text-red-500 font-bold">
         08 February 2023
         <span class="text-gray-900">/</span>
-        Operating Systems
+        Number System
       </p>
     </div>
-
-    <!--image-->
-    <div
-      class="container w-full max-w-6xl mx-auto bg-white bg-cover mt-8 rounded"
-      style="
-        background-image: url('https://source.unsplash.com/collection/1118905/');
-        height: 75vh;
-      "
-    ></div>
 
     <!--Container-->
     <div class="container max-w-5xl mx-auto -mt-32">
@@ -58,39 +49,58 @@
 
           <!--Lead Para-->
           <p class="text-center text-2xl md:text-3xl mb-5">
-            🖥️ Operating Systems 🖥️
+            ------------------={ 🖥️ Number System 🖥️ }=-----------------
           </p>
 
+          <div
+            class="container w-full max-w-6xl mx-auto bg-white mt-8 rounded"
+            style="height: 75vh; position: relative; overflow: hidden;"
+          >
+            <video
+              style="
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+              "
+              autoplay
+              loop
+              muted
+              src="/src/mkv/NumberSystem.mkv"
+            ></video>
+          </div>
+
           <p class="text-lg">
-            Operating systems are a vital component of computing and act as the
-            interface between the computer hardware and the software
-            applications. They manage the resources of the computer such as CPU,
-            memory, and storage, and allocate these resources to the running
-            applications. The operating system also provides a user interface,
-            allowing users to interact with the computer and run applications.
-
+            A number system is a way to represent numbers using a specific set
+            of symbols and rules. The most commonly used number system is the
+            decimal system, which uses the digits 0 to 9. However, in computing,
+            other number systems such as binary, octal, and hexadecimal are
+            often used.
             <br />
-            Some of the most popular operating systems are Microsoft Windows,
-            Apple's macOS, and various flavors of Linux. Windows is widely used
-            for personal computers, while macOS is popular for Apple's range of
-            computers and mobile devices. Linux, on the other hand, is favored
-            for servers and supercomputing systems due to its stability,
-            security, and openness.
-
             <br />
-            An operating system also provides various services such as file
-            management, memory management, process management, and security. For
-            example, file management allows users to create, delete, and manage
-            files and directories, while process management allocates resources
-            and manages running processes to ensure stability and prevent
-            crashes.
+            Binary is a base-2 number system that uses only two symbols, 0 and
+            1. It is the fundamental language of computers, as all data is
+            stored and processed using binary code. This makes it extremely
+            efficient for computers to handle, as it only requires two states to
+            represent all information. Octal and hexadecimal are other number
+            systems used in computing, which are base-8 and base-16
+            respectively. They provide a more compact way of representing binary
+            data and are used to represent addresses and memory locations in
+            computers.
             <br />
-            The operating system also acts as a layer of security, protecting
-            the computer and its data from unauthorized access and malicious
-            attacks. In conclusion, operating systems are crucial for the
-            functioning of computers and play a significant role in enhancing
-            user experience and ensuring the security of the system and its
-            data.
+            <br />
+            The use of different number systems in computing allows for greater
+            efficiency in both storage and processing of data. For example,
+            using hexadecimal to represent binary data reduces the number of
+            digits needed to represent the same information compared to binary.
+            This can lead to faster and more compact representation of
+            information in memory and processing, which is crucial for modern
+            computing systems. The understanding and use of different number
+            systems is an important part of computer science and is widely used
+            in areas such as cryptography, network communications, and computer
+            hardware design
           </p>
         </div>
       </div>
@@ -102,7 +112,7 @@
     >
       <div id="tabs" class="flex justify-between">
         <a
-          href="index.html"
+          href="./index.html"
           class="w-full focus:text-royal hover:text-royal justify-center inline-block text-center pt-2 pb-1 hover:bg-red-800 hover:text-white"
           activeClass="dark:text-gray-100 text-black"
         >
@@ -123,7 +133,7 @@
           <span class="tab block text-xs">Home</span>
         </a>
         <a
-          href="Categories.html"
+          href="./bottomNavbar/Categories.html"
           class="w-full focus:text-royal hover:text-royal justify-center inline-block text-center pt-2 pb-1 hover:bg-red-800 hover:text-white"
           activeClass="dark:text-gray-100 text-black"
         >
@@ -144,7 +154,6 @@
           <span class="tab block text-xs">Categories</span>
         </a>
         <a
-          href="Categories.html"
           class="w-full focus:text-royal hover:text-royal justify-center inline-block text-center pt-2 pb-1 hover:bg-red-800 hover:text-white"
           activeClass="dark:text-gray-100 text-black"
         >
@@ -165,7 +174,7 @@
           <span class="tab block text-xs">My Blogs</span>
         </a>
         <a
-          href="Profile.html"
+          href="./bottomNavbar/Profile.html"
           class="w-full focus:text-royal hover:text-royal justify-center inline-block text-center pt-2 pb-1 hover:bg-red-800 hover:text-white"
           activeClass="dark:text-gray-100 text-black"
         >
